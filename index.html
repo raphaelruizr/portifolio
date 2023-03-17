@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raphael Ruíz | Desenvolvedor Front End</title>
+    <link rel="stylesheet" href="css/principal.css" />
+    <link rel="stylesheet" href="css/secoes.css" />
+    <link rel="stylesheet" href="css/sobre_mim-janela.css" />
+    <link rel="stylesheet" href="css/hobbies-janela.css" />
+    <link rel="stylesheet" href="css/experimentos-janela.css" />
+    <link rel="stylesheet" href="css/projetos-janela.css" />
+    <link rel="stylesheet" href="css/login-cadastro-janela.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2 class="logo">RruíZ</h2>
+      <nav class="navegacao">
+        <a href="#" class="botao-sobre">Sobre mim</a>
+        <a href="#" class="botao-hobbies">Hobbies</a>
+        <a href="#" class="botao-experimentos">Experimentos</a>
+        <a href="#" class="botao-projetos">Projetos</a>
+        <button class="botao-login">Conecte-se</button>
+      </nav>
+    </header>
+
+    <div class="body-caixa">
+      
+      <div class="embrulho nenhum-display">
+        <span class="icone-fechar"><ion-icon name="close"></ion-icon></span>
+
+        <div class="caixa-formulario conectar">
+          <h2>Conecte-se</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icones"><ion-icon name="mail"></ion-icon> </span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icones"
+                ><ion-icon name="lock-closed"></ion-icon
+              ></span>
+              <input type="password" required />
+              <label>Senha</label>
+            </div>
+            <div class="lembrar-esquecer">
+              <label><input type="checkbox" /> Lembre-me</label>
+              <a href="#">Esqueceu sua senha?</a>
+            </div>
+            <button type="submit" class="botao">Entrar</button>
+            <div class="logar-cadastrar">
+              <p>
+                Não tem cadastro?
+                <a href="#" class="cadastro-link">Cadastre-se</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="caixa-formulario cadastro">
+          <h2>Cadastrar</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icones"><ion-icon name="person"></ion-icon> </span>
+              <input type="text" required />
+              <label>Nome</label>
+            </div>
+            <div class="input-box">
+              <span class="icones"><ion-icon name="mail"></ion-icon> </span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icones"
+                ><ion-icon name="lock-closed"></ion-icon
+              ></span>
+              <input type="password" required />
+              <label>Senha</label>
+            </div>
+            <div class="lembrar-esquecer">
+              <label
+                ><input type="checkbox" /> Aceito os termos e condiçoes.</label
+              >
+            </div>
+            <button type="submit" class="botao">Cadastrar</button>
+            <div class="logar-cadastrar">
+              <p>
+                Já tem uma conta?
+                <a href="#" class="conectar-link">Conecte-se</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <section class="sobre display-padrao">
+        <div class="sobre-mim-conteudo">
+          <div class="sobre-mim-conteudo-bloco1">
+            <h1>Olá Mundo! Eu sou RAPHAEL RUÍZ.</h1>
+
+            <h2>
+              Desenvolvedor Front-End, cursando Análise e Desenvolvimento de
+              Sistemas na Estácio EAD.
+            </h2>
+            <br />
+            <br />
+            <p>
+              Em minhas experiências anteriores trabalhei com edição de vídeos,
+              suporte técnico , Web Designer e Front End. Devido às
+              circunstâncias, migrei para o comércio chegando ao cargo de
+              Gerente, desenvolvendo skills de liderança, inteligência
+              emocional, planejamento, relacionamento interpessoal … Sigo, dando
+              continuidade no meu sonho na área de tecnologia.
+            </p>
+            <br />
+            <p>
+              Aguardando seu contato de oportunidade, para lhe entregar meu
+              empenho, dedicação, criatividade, trabalho em equipe.. e juntos
+              vamos criar projetos incríveis.
+            </p>
+            <br />
+            <br />
+            <h5>
+              HTML - CSS - JAVASCRIPT - GIT - GITHUB - REACTJS - JAVA -
+              PHOTOSHOP - ILLUSTRATOR - PREMIERE - CAMTASIA - AFTER EFFECTS -
+              AUDITION
+            </h5>
+            <br />
+            <br />
+            <a
+              href="../rruiz-portifolio/doc/Curriculo-Raphael_Ruiz.pdf"
+              download
+            >
+              <ion-icon name="document-text"></ion-icon>
+              Download CV</a
+            >
+          </div>
+
+          <div class="sobre-mim-conteudo-bloco2">
+            <img
+              class="img-astronauta"
+              src="../rruiz-portifolio/img/sobre_mim/sobre_mim-astronauta.png"
+              alt="imagem astronauta"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="hobbies display-padrao nenhum-display">
+        <div class="hobbies-conteudo">
+          <div class="hobbies-conteudo-bloco1"><h2>MEUS HOBBIES</h2></div>
+
+          <div class="hobbies-conteudo-bloco2">
+            <div class="slider">
+              <span style="--i: 1"
+                ><img
+                  src="../rruiz-portifolio/img/hobbies/hobbies-animes.png"
+                  alt=""
+              /></span>
+              <span style="--i: 2"
+                ><img
+                  src="../rruiz-portifolio/img/hobbies/hobbies-escrever.png"
+                  alt=""
+              /></span>
+              <span style="--i: 3"
+                ><img
+                  src="../rruiz-portifolio/img/hobbies/hobbies-familia.png"
+                  alt=""
+              /></span>
+              <span style="--i: 4"
+                ><img
+                  src="../rruiz-portifolio/img/hobbies/hobbies-futebol.png"
+                  alt=""
+              /></span>
+              <span style="--i: 5"
+                ><img
+                  src="../rruiz-portifolio/img/hobbies/hobbies-games.png"
+                  alt=""
+              /></span>
+              <span style="--i: 6"
+                ><img
+                  src="../rruiz-portifolio/img/hobbies/hobbies-musica.png"
+                  alt=""
+              /></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experimentos display-padrao nenhum-display">
+        <div class="experimentos-conteudo">
+          <div class="experimentos-conteudo-bloco1"><h2>EXPERIMENTOS</h2></div>
+
+          <div class="experimentos-conteudo-bloco2">
+            <a
+              class="experimentos-box"
+              href="https://pokeview-tau.vercel.app/"
+              target="_blank"
+            >
+              <img
+                class="experimentos-img"
+                src="../rruiz-portifolio/img/experimentos/experimentos-pokedex.png"
+                alt=""
+              />
+
+              <h3>Pokedex</h3>
+
+              <p>Experimento que consome API de pokemons. - HTML, CSS, JS.</p>
+
+              <span>CLIQUE</span>
+            </a>
+
+            <a
+              class="experimentos-box"
+              href="https://horadoduelo.vercel.app/"
+              target="_blank"
+            >
+              <img
+                class="experimentos-img"
+                src="../rruiz-portifolio/img/experimentos/experimentos-formulario_de_times.png"
+                alt=""
+              />
+
+              <h3>Hora do Duelo</h3>
+
+              <p>Um formulário que gera cards de equipe. - ReactJS.</p>
+
+              <span>CLIQUE</span>
+            </a>
+
+            <a class="experimentos-box">
+              <img
+                class="experimentos-img"
+                src="../rruiz-portifolio/img/experimentos/experimentos-em_construcao.png"
+                alt=""
+              />
+
+              <h3>Loja com Carrinho</h3>
+
+              <p>Experimento de uma loja com carrinho de compras - REACTJS.</p>
+
+              <span>EM DESENVOLVIMENTO</span>
+            </a>
+
+            <a class="experimentos-box">
+              <img
+                class="experimentos-img"
+                src="../rruiz-portifolio/img/experimentos/experimentos-em_construcao.png"
+                alt=""
+              />
+
+              <h3>Bootcamp Java DIO</h3>
+
+              <p>
+                Projeto final do bootcamp Banco PAN Java Developer da DIO -
+                JAVA.
+              </p>
+
+              <span>EM DESENVOLVIMENTO</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos display-padrao nenhum-display">
+        <div class="projetos-conteudo">
+          <div class="projetos-conteudo-bloco1">
+            <h3>SEU PROJETO AQUI</h3>
+          </div>
+
+          <div class="projetos-conteudo-bloco2">
+            <div class="projetos-box">
+              <a class="container-img">
+                <img
+                  class="projetos-img"
+                  src="../rruiz-portifolio/img/projetos/projetos-img1.jpg"
+                />
+              </a>
+              <h3>PROJETO 1</h3>
+              <br />
+              <br />
+              <p>Descricao do projeto, descricao do projeto.</p>
+            </div>
+
+            <div class="projetos-box">
+              <a class="container-img">
+                <img
+                  class="projetos-img"
+                  src="../rruiz-portifolio/img/projetos/projetos-img2.jpg"
+                />
+              </a>
+              <h3>PROJETO 2</h3>
+              <br />
+              <br />
+              <p>Descricao do projeto, descricao do projeto.</p>
+            </div>
+
+            <div class="projetos-box">
+              <a class="container-img">
+                <img
+                  class="projetos-img"
+                  src="../rruiz-portifolio/img/projetos/projetos-img3.jpg"
+                />
+              </a>
+              <h3>PROJETO 3</h3>
+              <br />
+              <br />
+              <p>Descricao do projeto, descricao do projeto.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="rodape">
+      <a href="https://www.linkedin.com/in/raphaelruizr/" target="_blank"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+      <a href="https://github.com/raphaelruizr" target="_blank"
+        ><ion-icon name="logo-github"></ion-icon
+      ></a>
+      <h5>raphaelruiz.tecinfo@gmail.com</h5>
+    </footer>
+
+    <script src="js/secoes.js"></script>
+    <script src="js/janela-login.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

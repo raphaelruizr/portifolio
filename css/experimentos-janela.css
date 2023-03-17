@@ -1,0 +1,83 @@
+.experimentos-conteudo {
+  min-width: 65vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.experimentos-conteudo-bloco1 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0px 0px 3px black;
+  letter-spacing: 1px;
+  animation: experimentos-exibe1 1s ease-in;
+}
+
+.experimentos-conteudo-bloco2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2%;
+  overflow: visible;
+  width: 90%;
+  animation: experimentos-exibe2 1s ease-in;
+}
+
+.experimentos-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 1%;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.experimentos-box h3 {
+  color: rgb(3, 167, 255);
+}
+
+.experimentos-box p {
+  color: #fff;
+}
+
+.experimentos-box span {
+  color: rgb(0, 166, 255);
+}
+
+.experimentos-box:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.experimentos-img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+@keyframes experimentos-exibe1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes experimentos-exibe2 {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
