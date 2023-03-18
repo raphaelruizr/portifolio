@@ -7,6 +7,12 @@
   font-family: "Bai Jamjuree", sans-serif;
 }
 
+@media (min-width: 1200px){
+
+.alerta-temporario {
+  display: none;
+}/*APAGAR AO FINALIZAR A TELA RESPONSIVEL*/
+
 body {
   display: flex;
   justify-content: space-between;
@@ -114,3 +120,6 @@ header {
   color: #000000;
   font-size: 2em;
 }
+
+}
+

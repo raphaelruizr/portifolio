@@ -1,0 +1,15 @@
+@media (max-width: 450px) {
+    
+    .alerta-temporario {
+        display: block;
+        height: 100vh;
+        margin-bottom: 5%;
+        padding: 5%;
+        background-color: rgba(155, 160, 19, 0.719);
+      }/*APAGAR AO FINALIZAR A TELA RESPONSIVEL*/
+    
+      header , .body-caixa, footer {
+        display: none;
+    }
+      
+}
