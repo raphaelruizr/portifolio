@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) and (max-width: 1270px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("../img/imagem_de_fundo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: black;
+  }
+
+  .logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+  }
+
+  .navegacao {
+    display: flex;
+    gap: 1em;
+    flex-wrap: nowrap;
+  }
+  .navegacao a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+  }
+
+  header nav a:focus {
+    border-bottom: 3px solid rgb(61, 226, 255);
+  }
+
+  header nav button {
+    background-color: rgb(61, 226, 255);
+    border-radius: 8px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    border: 2px solid #fff;
+    border-style: outset;
+    padding: 2px;
+    font-weight: 500;
+  }
+
+  header nav button:active {
+    transform: scale(0.98);
+  }
+
+  .body-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre-mim-conteudo {
+    margin-top: 10vh;
+  }
+
+  .hobbies-conteudo {
+    width: 85vw;
+  }
+
+  .experimentos-conteudo {
+    margin-top: 10vh;
+  }
+  .experimentos-conteudo-bloco2 {
+    gap: 1em;
+  }
+  .experimentos-conteudo-bloco2 a {
+    width: 200px;
+  }
+
+  .projetos-conteudo {
+    margin-top: 12vh;
+  }
+
+  .rodape {
+    position: fixed;
+    display: flex;
+    padding-left: 2%;
+    justify-content: start;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    top: 8%;
+    text-align: center;
+    z-index: 99;
+    background-color: black;
+  }
+
+  .rodape h5 {
+    font-size: 1.2em;
+    color: rgb(61, 226, 255);
+  }
+
+  .rodape a {
+    font-size: 2em;
+  }
+}

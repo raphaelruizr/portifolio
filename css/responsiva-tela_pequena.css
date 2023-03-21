@@ -1,0 +1,117 @@
+@media screen and (max-width: 767px) {
+  body {
+    background: url("../img/imagem_de_fundo.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-width: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header h2 {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    top: 35px;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    z-index: 99;
+    background-color: black;
+  }
+
+  .navegacao {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1%;
+    flex-wrap: nowrap;
+  }
+  .navegacao a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+  }
+
+  header nav a:focus {
+    border-bottom: 3px solid rgb(61, 226, 255);
+  }
+
+  header nav button {
+    background-color: rgb(61, 226, 255);
+    border-radius: 8px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    border: 2px solid #fff;
+    border-style: outset;
+    padding: 2px;
+    font-weight: 500;
+  }
+
+  header nav button:active {
+    transform: scale(0.98);
+  }
+  .body-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre-mim-conteudo {
+    margin-top: 46vh;
+  }
+
+  .sobre-mim-conteudo-bloco2 {
+    display: none;
+  }
+
+  .experimentos-conteudo-bloco1 {
+    margin-top: 120vh;
+  }
+  .experimentos-conteudo-bloco2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .experimentos-conteudo-bloco2 a {
+    width: 250px;
+
+    margin: 2%;
+  }
+
+  .projetos-conteudo-bloco1 {
+    margin-top: 70vh;
+  }
+
+  .projetos-conteudo-bloco2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .embrulho {
+    display: flex;
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    position: fixed;
+    color: rgb(61, 226, 255);
+    z-index: 97;
+    font-size: 1.6em;
+    padding: 1%;
+    background-color: rgb(0, 0, 0);
+  }
+}
