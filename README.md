@@ -9,7 +9,6 @@ Layout responsivo
 
 PS: Parte do design  e ordem de alguns elementos foram  modificados para dar uma distinção entre transição de telas.
 
-
 ## Próximas etapas:
 
 * ~~Versão responsiva para telas menores~~; --> Feito 21/03/23
