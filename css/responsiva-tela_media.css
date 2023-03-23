@@ -89,7 +89,7 @@
     margin-top: 12vh;
   }
 
-  .rodape {
+  .contato {
     position: fixed;
     display: flex;
     padding-left: 2%;
@@ -103,12 +103,12 @@
     background-color: black;
   }
 
-  .rodape h5 {
+  .contato h5 {
     font-size: 1.2em;
     color: rgb(61, 226, 255);
   }
 
-  .rodape a {
+  .contato a {
     font-size: 2em;
   }
 }
