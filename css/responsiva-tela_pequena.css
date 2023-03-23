@@ -60,19 +60,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
   .sobre-mim-conteudo {
-    margin-top: 46vh;
+    margin-top: 22vh;
+    padding: 5%;
   }
 
   .sobre-mim-conteudo-bloco2 {
     display: none;
   }
 
-  .experimentos-conteudo-bloco1 {
-    margin-top: 120vh;
-  }
   .experimentos-conteudo-bloco2 {
     display: flex;
     flex-direction: column;
@@ -136,6 +135,10 @@
   }
 
   .body-caixa {
-    margin-top: 25%;
+    margin-top: 10%;
+  }
+
+  .sobre-mim-conteudo {
+    margin-top: 60vh;
   }
 }
