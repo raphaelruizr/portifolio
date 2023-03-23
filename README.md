@@ -3,11 +3,7 @@
 
 Bem vindo ao meu portifólio de apresentação. 👋
 
-Nesta primeira versão do portfólio, digitei código por código com intuito  de explorar meu conhecimento e criar novos desafios.
-
-Layout responsivo
-
-PS: Parte do design  e ordem de alguns elementos foram  modificados para dar uma distinção entre transição de telas.
+Alguns de nós crescemos escutando que o céu é limite. Até descobrimos que o céu visto da Terra, é apenas o início de um vasto universo. E para representar este início da minha “exploração espacial”, apresento a vocês o meu portfolio.
 
 ## Próximas etapas:
 
