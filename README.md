@@ -27,4 +27,6 @@ PS: Parte do design  e ordem de alguns elementos foram  modificados para dar uma
 
 [LINK DO PORTIFÓLIO](https://portifolio-ivory-eta.vercel.app/) <--- Clique aqui para abrir o portifólio.
 
-<img src="">
+<img src="https://github.com/raphaelruizr/portifolio/blob/main/readme-img/readme-tela_desktop.png?raw=true">
+<img src="https://github.com/raphaelruizr/portifolio/blob/main/readme-img/readme-tela_mobile.png?raw=true">
+<img src="https://github.com/raphaelruizr/portifolio/blob/main/readme-img/readme-janela_login.png?raw=true">
